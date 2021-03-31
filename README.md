@@ -1,2 +1,2 @@
 # cdc-ncvhs-covid-2021
- presentation to the national center for vital and health statistics
+code for a presentation to the National Committee on Vital and Health Statistics

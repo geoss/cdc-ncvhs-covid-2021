@@ -1,0 +1,1607 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12789222
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2019 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2015 -- 2019 (5-Year Estimates)
+Tables:
+
+      1. Sex By Age
+         Universe:  Universe:  Total population
+         Name:      B01001
+         Variables:
+            B01001001:   Total:
+            B01001002:      Male:
+            B01001003:         Under 5 Years
+            B01001004:         5 To 9 Years
+            B01001005:         10 To 14 Years
+            B01001006:         15 To 17 Years
+            B01001007:         18 And 19 Years
+            B01001008:         20 Years
+            B01001009:         21 Years
+            B01001010:         22 To 24 Years
+            B01001011:         25 To 29 Years
+            B01001012:         30 To 34 Years
+            B01001013:         35 To 39 Years
+            B01001014:         40 To 44 Years
+            B01001015:         45 To 49 Years
+            B01001016:         50 To 54 Years
+            B01001017:         55 To 59 Years
+            B01001018:         60 And 61 Years
+            B01001019:         62 To 64 Years
+            B01001020:         65 And 66 Years
+            B01001021:         67 To 69 Years
+            B01001022:         70 To 74 Years
+            B01001023:         75 To 79 Years
+            B01001024:         80 To 84 Years
+            B01001025:         85 Years And Over
+            B01001026:      Female:
+            B01001027:         Under 5 Years
+            B01001028:         5 To 9 Years
+            B01001029:         10 To 14 Years
+            B01001030:         15 To 17 Years
+            B01001031:         18 And 19 Years
+            B01001032:         20 Years
+            B01001033:         21 Years
+            B01001034:         22 To 24 Years
+            B01001035:         25 To 29 Years
+            B01001036:         30 To 34 Years
+            B01001037:         35 To 39 Years
+            B01001038:         40 To 44 Years
+            B01001039:         45 To 49 Years
+            B01001040:         50 To 54 Years
+            B01001041:         55 To 59 Years
+            B01001042:         60 And 61 Years
+            B01001043:         62 To 64 Years
+            B01001044:         65 And 66 Years
+            B01001045:         67 To 69 Years
+            B01001046:         70 To 74 Years
+            B01001047:         75 To 79 Years
+            B01001048:         80 To 84 Years
+            B01001049:         85 Years And Over
+
+
+      2. Sex By Age
+         Universe:  Universe:  Total population
+         Name:      B01001_se
+         Variables:
+            B01001001s:   Std. Error: Total:
+            B01001002s:      Std. Error: Male:
+            B01001003s:         Std. Error: Under 5 Years
+            B01001004s:         Std. Error: 5 To 9 Years
+            B01001005s:         Std. Error: 10 To 14 Years
+            B01001006s:         Std. Error: 15 To 17 Years
+            B01001007s:         Std. Error: 18 And 19 Years
+            B01001008s:         Std. Error: 20 Years
+            B01001009s:         Std. Error: 21 Years
+            B01001010s:         Std. Error: 22 To 24 Years
+            B01001011s:         Std. Error: 25 To 29 Years
+            B01001012s:         Std. Error: 30 To 34 Years
+            B01001013s:         Std. Error: 35 To 39 Years
+            B01001014s:         Std. Error: 40 To 44 Years
+            B01001015s:         Std. Error: 45 To 49 Years
+            B01001016s:         Std. Error: 50 To 54 Years
+            B01001017s:         Std. Error: 55 To 59 Years
+            B01001018s:         Std. Error: 60 And 61 Years
+            B01001019s:         Std. Error: 62 To 64 Years
+            B01001020s:         Std. Error: 65 And 66 Years
+            B01001021s:         Std. Error: 67 To 69 Years
+            B01001022s:         Std. Error: 70 To 74 Years
+            B01001023s:         Std. Error: 75 To 79 Years
+            B01001024s:         Std. Error: 80 To 84 Years
+            B01001025s:         Std. Error: 85 Years And Over
+            B01001026s:      Std. Error: Female:
+            B01001027s:         Std. Error: Under 5 Years
+            B01001028s:         Std. Error: 5 To 9 Years
+            B01001029s:         Std. Error: 10 To 14 Years
+            B01001030s:         Std. Error: 15 To 17 Years
+            B01001031s:         Std. Error: 18 And 19 Years
+            B01001032s:         Std. Error: 20 Years
+            B01001033s:         Std. Error: 21 Years
+            B01001034s:         Std. Error: 22 To 24 Years
+            B01001035s:         Std. Error: 25 To 29 Years
+            B01001036s:         Std. Error: 30 To 34 Years
+            B01001037s:         Std. Error: 35 To 39 Years
+            B01001038s:         Std. Error: 40 To 44 Years
+            B01001039s:         Std. Error: 45 To 49 Years
+            B01001040s:         Std. Error: 50 To 54 Years
+            B01001041s:         Std. Error: 55 To 59 Years
+            B01001042s:         Std. Error: 60 And 61 Years
+            B01001043s:         Std. Error: 62 To 64 Years
+            B01001044s:         Std. Error: 65 And 66 Years
+            B01001045s:         Std. Error: 67 To 69 Years
+            B01001046s:         Std. Error: 70 To 74 Years
+            B01001047s:         Std. Error: 75 To 79 Years
+            B01001048s:         Std. Error: 80 To 84 Years
+            B01001049s:         Std. Error: 85 Years And Over
+
+
+      3. Sex By Age (White Alone)
+         Universe:  Universe:  People who are White alone
+         Name:      B01001A
+         Variables:
+            B01001A001:   Total:
+            B01001A002:      Male:
+            B01001A003:         Under 5 Years
+            B01001A004:         5 To 9 Years
+            B01001A005:         10 To 14 Years
+            B01001A006:         15 To 17 Years
+            B01001A007:         18 And 19 Years
+            B01001A008:         20 To 24 Years
+            B01001A009:         25 To 29 Years
+            B01001A010:         30 To 34 Years
+            B01001A011:         35 To 44 Years
+            B01001A012:         45 To 54 Years
+            B01001A013:         55 To 64 Years
+            B01001A014:         65 To 74 Years
+            B01001A015:         75 To 84 Years
+            B01001A016:         85 Years And Over
+            B01001A017:      Female:
+            B01001A018:         Under 5 Years
+            B01001A019:         5 To 9 Years
+            B01001A020:         10 To 14 Years
+            B01001A021:         15 To 17 Years
+            B01001A022:         18 And 19 Years
+            B01001A023:         20 To 24 Years
+            B01001A024:         25 To 29 Years
+            B01001A025:         30 To 34 Years
+            B01001A026:         35 To 44 Years
+            B01001A027:         45 To 54 Years
+            B01001A028:         55 To 64 Years
+            B01001A029:         65 To 74 Years
+            B01001A030:         75 To 84 Years
+            B01001A031:         85 Years And Over
+
+
+      4. Sex By Age (White Alone)
+         Universe:  Universe:  People who are White alone
+         Name:      B01001A_se
+         Variables:
+            B01001A001s:   Std. Error: Total:
+            B01001A002s:      Std. Error: Male:
+            B01001A003s:         Std. Error: Under 5 Years
+            B01001A004s:         Std. Error: 5 To 9 Years
+            B01001A005s:         Std. Error: 10 To 14 Years
+            B01001A006s:         Std. Error: 15 To 17 Years
+            B01001A007s:         Std. Error: 18 And 19 Years
+            B01001A008s:         Std. Error: 20 To 24 Years
+            B01001A009s:         Std. Error: 25 To 29 Years
+            B01001A010s:         Std. Error: 30 To 34 Years
+            B01001A011s:         Std. Error: 35 To 44 Years
+            B01001A012s:         Std. Error: 45 To 54 Years
+            B01001A013s:         Std. Error: 55 To 64 Years
+            B01001A014s:         Std. Error: 65 To 74 Years
+            B01001A015s:         Std. Error: 75 To 84 Years
+            B01001A016s:         Std. Error: 85 Years And Over
+            B01001A017s:      Std. Error: Female:
+            B01001A018s:         Std. Error: Under 5 Years
+            B01001A019s:         Std. Error: 5 To 9 Years
+            B01001A020s:         Std. Error: 10 To 14 Years
+            B01001A021s:         Std. Error: 15 To 17 Years
+            B01001A022s:         Std. Error: 18 And 19 Years
+            B01001A023s:         Std. Error: 20 To 24 Years
+            B01001A024s:         Std. Error: 25 To 29 Years
+            B01001A025s:         Std. Error: 30 To 34 Years
+            B01001A026s:         Std. Error: 35 To 44 Years
+            B01001A027s:         Std. Error: 45 To 54 Years
+            B01001A028s:         Std. Error: 55 To 64 Years
+            B01001A029s:         Std. Error: 65 To 74 Years
+            B01001A030s:         Std. Error: 75 To 84 Years
+            B01001A031s:         Std. Error: 85 Years And Over
+
+
+      5. Sex By Age (Black Or African American Alone)
+         Universe:  Universe:  Black or African American alone
+         Name:      B01001B
+         Variables:
+            B01001B001:   Total:
+            B01001B002:      Male:
+            B01001B003:         Under 5 Years
+            B01001B004:         5 To 9 Years
+            B01001B005:         10 To 14 Years
+            B01001B006:         15 To 17 Years
+            B01001B007:         18 And 19 Years
+            B01001B008:         20 To 24 Years
+            B01001B009:         25 To 29 Years
+            B01001B010:         30 To 34 Years
+            B01001B011:         35 To 44 Years
+            B01001B012:         45 To 54 Years
+            B01001B013:         55 To 64 Years
+            B01001B014:         65 To 74 Years
+            B01001B015:         75 To 84 Years
+            B01001B016:         85 Years And Over
+            B01001B017:      Female:
+            B01001B018:         Under 5 Years
+            B01001B019:         5 To 9 Years
+            B01001B020:         10 To 14 Years
+            B01001B021:         15 To 17 Years
+            B01001B022:         18 And 19 Years
+            B01001B023:         20 To 24 Years
+            B01001B024:         25 To 29 Years
+            B01001B025:         30 To 34 Years
+            B01001B026:         35 To 44 Years
+            B01001B027:         45 To 54 Years
+            B01001B028:         55 To 64 Years
+            B01001B029:         65 To 74 Years
+            B01001B030:         75 To 84 Years
+            B01001B031:         85 Years And Over
+
+
+      6. Sex By Age (Black Or African American Alone)
+         Universe:  Universe:  Black or African American alone
+         Name:      B01001B_se
+         Variables:
+            B01001B001s:   Std. Error: Total:
+            B01001B002s:      Std. Error: Male:
+            B01001B003s:         Std. Error: Under 5 Years
+            B01001B004s:         Std. Error: 5 To 9 Years
+            B01001B005s:         Std. Error: 10 To 14 Years
+            B01001B006s:         Std. Error: 15 To 17 Years
+            B01001B007s:         Std. Error: 18 And 19 Years
+            B01001B008s:         Std. Error: 20 To 24 Years
+            B01001B009s:         Std. Error: 25 To 29 Years
+            B01001B010s:         Std. Error: 30 To 34 Years
+            B01001B011s:         Std. Error: 35 To 44 Years
+            B01001B012s:         Std. Error: 45 To 54 Years
+            B01001B013s:         Std. Error: 55 To 64 Years
+            B01001B014s:         Std. Error: 65 To 74 Years
+            B01001B015s:         Std. Error: 75 To 84 Years
+            B01001B016s:         Std. Error: 85 Years And Over
+            B01001B017s:      Std. Error: Female:
+            B01001B018s:         Std. Error: Under 5 Years
+            B01001B019s:         Std. Error: 5 To 9 Years
+            B01001B020s:         Std. Error: 10 To 14 Years
+            B01001B021s:         Std. Error: 15 To 17 Years
+            B01001B022s:         Std. Error: 18 And 19 Years
+            B01001B023s:         Std. Error: 20 To 24 Years
+            B01001B024s:         Std. Error: 25 To 29 Years
+            B01001B025s:         Std. Error: 30 To 34 Years
+            B01001B026s:         Std. Error: 35 To 44 Years
+            B01001B027s:         Std. Error: 45 To 54 Years
+            B01001B028s:         Std. Error: 55 To 64 Years
+            B01001B029s:         Std. Error: 65 To 74 Years
+            B01001B030s:         Std. Error: 75 To 84 Years
+            B01001B031s:         Std. Error: 85 Years And Over
+
+
+      7. Sex By Age (American Indian And Alaska Native Alone)
+         Universe:  Universe:  People who are American Indian and Alaska Native alone
+         Name:      B01001C
+         Variables:
+            B01001C001:   Total:
+            B01001C002:      Male:
+            B01001C003:         Under 5 Years
+            B01001C004:         5 To 9 Years
+            B01001C005:         10 To 14 Years
+            B01001C006:         15 To 17 Years
+            B01001C007:         18 And 19 Years
+            B01001C008:         20 To 24 Years
+            B01001C009:         25 To 29 Years
+            B01001C010:         30 To 34 Years
+            B01001C011:         35 To 44 Years
+            B01001C012:         45 To 54 Years
+            B01001C013:         55 To 64 Years
+            B01001C014:         65 To 74 Years
+            B01001C015:         75 To 84 Years
+            B01001C016:         85 Years And Over
+            B01001C017:      Female:
+            B01001C018:         Under 5 Years
+            B01001C019:         5 To 9 Years
+            B01001C020:         10 To 14 Years
+            B01001C021:         15 To 17 Years
+            B01001C022:         18 And 19 Years
+            B01001C023:         20 To 24 Years
+            B01001C024:         25 To 29 Years
+            B01001C025:         30 To 34 Years
+            B01001C026:         35 To 44 Years
+            B01001C027:         45 To 54 Years
+            B01001C028:         55 To 64 Years
+            B01001C029:         65 To 74 Years
+            B01001C030:         75 To 84 Years
+            B01001C031:         85 Years And Over
+
+
+      8. Sex By Age (American Indian And Alaska Native Alone)
+         Universe:  Universe:  People who are American Indian and Alaska Native alone
+         Name:      B01001C_se
+         Variables:
+            B01001C001s:   Std. Error: Total:
+            B01001C002s:      Std. Error: Male:
+            B01001C003s:         Std. Error: Under 5 Years
+            B01001C004s:         Std. Error: 5 To 9 Years
+            B01001C005s:         Std. Error: 10 To 14 Years
+            B01001C006s:         Std. Error: 15 To 17 Years
+            B01001C007s:         Std. Error: 18 And 19 Years
+            B01001C008s:         Std. Error: 20 To 24 Years
+            B01001C009s:         Std. Error: 25 To 29 Years
+            B01001C010s:         Std. Error: 30 To 34 Years
+            B01001C011s:         Std. Error: 35 To 44 Years
+            B01001C012s:         Std. Error: 45 To 54 Years
+            B01001C013s:         Std. Error: 55 To 64 Years
+            B01001C014s:         Std. Error: 65 To 74 Years
+            B01001C015s:         Std. Error: 75 To 84 Years
+            B01001C016s:         Std. Error: 85 Years And Over
+            B01001C017s:      Std. Error: Female:
+            B01001C018s:         Std. Error: Under 5 Years
+            B01001C019s:         Std. Error: 5 To 9 Years
+            B01001C020s:         Std. Error: 10 To 14 Years
+            B01001C021s:         Std. Error: 15 To 17 Years
+            B01001C022s:         Std. Error: 18 And 19 Years
+            B01001C023s:         Std. Error: 20 To 24 Years
+            B01001C024s:         Std. Error: 25 To 29 Years
+            B01001C025s:         Std. Error: 30 To 34 Years
+            B01001C026s:         Std. Error: 35 To 44 Years
+            B01001C027s:         Std. Error: 45 To 54 Years
+            B01001C028s:         Std. Error: 55 To 64 Years
+            B01001C029s:         Std. Error: 65 To 74 Years
+            B01001C030s:         Std. Error: 75 To 84 Years
+            B01001C031s:         Std. Error: 85 Years And Over
+
+
+      9. Sex By Age (Asian Alone)
+         Universe:  Universe:  People who are Asian alone
+         Name:      B01001D
+         Variables:
+            B01001D001:   Total:
+            B01001D002:      Male:
+            B01001D003:         Under 5 Years
+            B01001D004:         5 To 9 Years
+            B01001D005:         10 To 14 Years
+            B01001D006:         15 To 17 Years
+            B01001D007:         18 And 19 Years
+            B01001D008:         20 To 24 Years
+            B01001D009:         25 To 29 Years
+            B01001D010:         30 To 34 Years
+            B01001D011:         35 To 44 Years
+            B01001D012:         45 To 54 Years
+            B01001D013:         55 To 64 Years
+            B01001D014:         65 To 74 Years
+            B01001D015:         75 To 84 Years
+            B01001D016:         85 Years And Over
+            B01001D017:      Female:
+            B01001D018:         Under 5 Years
+            B01001D019:         5 To 9 Years
+            B01001D020:         10 To 14 Years
+            B01001D021:         15 To 17 Years
+            B01001D022:         18 And 19 Years
+            B01001D023:         20 To 24 Years
+            B01001D024:         25 To 29 Years
+            B01001D025:         30 To 34 Years
+            B01001D026:         35 To 44 Years
+            B01001D027:         45 To 54 Years
+            B01001D028:         55 To 64 Years
+            B01001D029:         65 To 74 Years
+            B01001D030:         75 To 84 Years
+            B01001D031:         85 Years And Over
+
+
+      10. Sex By Age (Asian Alone)
+          Universe:  Universe:  People who are Asian alone
+          Name:      B01001D_se
+          Variables:
+             B01001D001s:   Std. Error: Total:
+             B01001D002s:      Std. Error: Male:
+             B01001D003s:         Std. Error: Under 5 Years
+             B01001D004s:         Std. Error: 5 To 9 Years
+             B01001D005s:         Std. Error: 10 To 14 Years
+             B01001D006s:         Std. Error: 15 To 17 Years
+             B01001D007s:         Std. Error: 18 And 19 Years
+             B01001D008s:         Std. Error: 20 To 24 Years
+             B01001D009s:         Std. Error: 25 To 29 Years
+             B01001D010s:         Std. Error: 30 To 34 Years
+             B01001D011s:         Std. Error: 35 To 44 Years
+             B01001D012s:         Std. Error: 45 To 54 Years
+             B01001D013s:         Std. Error: 55 To 64 Years
+             B01001D014s:         Std. Error: 65 To 74 Years
+             B01001D015s:         Std. Error: 75 To 84 Years
+             B01001D016s:         Std. Error: 85 Years And Over
+             B01001D017s:      Std. Error: Female:
+             B01001D018s:         Std. Error: Under 5 Years
+             B01001D019s:         Std. Error: 5 To 9 Years
+             B01001D020s:         Std. Error: 10 To 14 Years
+             B01001D021s:         Std. Error: 15 To 17 Years
+             B01001D022s:         Std. Error: 18 And 19 Years
+             B01001D023s:         Std. Error: 20 To 24 Years
+             B01001D024s:         Std. Error: 25 To 29 Years
+             B01001D025s:         Std. Error: 30 To 34 Years
+             B01001D026s:         Std. Error: 35 To 44 Years
+             B01001D027s:         Std. Error: 45 To 54 Years
+             B01001D028s:         Std. Error: 55 To 64 Years
+             B01001D029s:         Std. Error: 65 To 74 Years
+             B01001D030s:         Std. Error: 75 To 84 Years
+             B01001D031s:         Std. Error: 85 Years And Over
+
+
+      11. Sex By Age (Native Hawaiian And Other Pacific Islander Alone)
+          Universe:  Universe:  People who are Native Hawaiian and Other Pacific Islander alone
+          Name:      B01001E
+          Variables:
+             B01001E001:   Total:
+             B01001E002:      Male:
+             B01001E003:         Under 5 Years
+             B01001E004:         5 To 9 Years
+             B01001E005:         10 To 14 Years
+             B01001E006:         15 To 17 Years
+             B01001E007:         18 And 19 Years
+             B01001E008:         20 To 24 Years
+             B01001E009:         25 To 29 Years
+             B01001E010:         30 To 34 Years
+             B01001E011:         35 To 44 Years
+             B01001E012:         45 To 54 Years
+             B01001E013:         55 To 64 Years
+             B01001E014:         65 To 74 Years
+             B01001E015:         75 To 84 Years
+             B01001E016:         85 Years And Over
+             B01001E017:      Female:
+             B01001E018:         Under 5 Years
+             B01001E019:         5 To 9 Years
+             B01001E020:         10 To 14 Years
+             B01001E021:         15 To 17 Years
+             B01001E022:         18 And 19 Years
+             B01001E023:         20 To 24 Years
+             B01001E024:         25 To 29 Years
+             B01001E025:         30 To 34 Years
+             B01001E026:         35 To 44 Years
+             B01001E027:         45 To 54 Years
+             B01001E028:         55 To 64 Years
+             B01001E029:         65 To 74 Years
+             B01001E030:         75 To 84 Years
+             B01001E031:         85 Years And Over
+
+
+      12. Sex By Age (Native Hawaiian And Other Pacific Islander Alone)
+          Universe:  Universe:  People who are Native Hawaiian and Other Pacific Islander alone
+          Name:      B01001E_se
+          Variables:
+             B01001E001s:   Std. Error: Total:
+             B01001E002s:      Std. Error: Male:
+             B01001E003s:         Std. Error: Under 5 Years
+             B01001E004s:         Std. Error: 5 To 9 Years
+             B01001E005s:         Std. Error: 10 To 14 Years
+             B01001E006s:         Std. Error: 15 To 17 Years
+             B01001E007s:         Std. Error: 18 And 19 Years
+             B01001E008s:         Std. Error: 20 To 24 Years
+             B01001E009s:         Std. Error: 25 To 29 Years
+             B01001E010s:         Std. Error: 30 To 34 Years
+             B01001E011s:         Std. Error: 35 To 44 Years
+             B01001E012s:         Std. Error: 45 To 54 Years
+             B01001E013s:         Std. Error: 55 To 64 Years
+             B01001E014s:         Std. Error: 65 To 74 Years
+             B01001E015s:         Std. Error: 75 To 84 Years
+             B01001E016s:         Std. Error: 85 Years And Over
+             B01001E017s:      Std. Error: Female:
+             B01001E018s:         Std. Error: Under 5 Years
+             B01001E019s:         Std. Error: 5 To 9 Years
+             B01001E020s:         Std. Error: 10 To 14 Years
+             B01001E021s:         Std. Error: 15 To 17 Years
+             B01001E022s:         Std. Error: 18 And 19 Years
+             B01001E023s:         Std. Error: 20 To 24 Years
+             B01001E024s:         Std. Error: 25 To 29 Years
+             B01001E025s:         Std. Error: 30 To 34 Years
+             B01001E026s:         Std. Error: 35 To 44 Years
+             B01001E027s:         Std. Error: 45 To 54 Years
+             B01001E028s:         Std. Error: 55 To 64 Years
+             B01001E029s:         Std. Error: 65 To 74 Years
+             B01001E030s:         Std. Error: 75 To 84 Years
+             B01001E031s:         Std. Error: 85 Years And Over
+
+
+      13. Sex By Age (Some Other Race Alone)
+          Universe:  Universe:  People who are Some Other Race alone
+          Name:      B01001F
+          Variables:
+             B01001F001:   Total:
+             B01001F002:      Male:
+             B01001F003:         Under 5 Years
+             B01001F004:         5 To 9 Years
+             B01001F005:         10 To 14 Years
+             B01001F006:         15 To 17 Years
+             B01001F007:         18 And 19 Years
+             B01001F008:         20 To 24 Years
+             B01001F009:         25 To 29 Years
+             B01001F010:         30 To 34 Years
+             B01001F011:         35 To 44 Years
+             B01001F012:         45 To 54 Years
+             B01001F013:         55 To 64 Years
+             B01001F014:         65 To 74 Years
+             B01001F015:         75 To 84 Years
+             B01001F016:         85 Years And Over
+             B01001F017:      Female:
+             B01001F018:         Under 5 Years
+             B01001F019:         5 To 9 Years
+             B01001F020:         10 To 14 Years
+             B01001F021:         15 To 17 Years
+             B01001F022:         18 And 19 Years
+             B01001F023:         20 To 24 Years
+             B01001F024:         25 To 29 Years
+             B01001F025:         30 To 34 Years
+             B01001F026:         35 To 44 Years
+             B01001F027:         45 To 54 Years
+             B01001F028:         55 To 64 Years
+             B01001F029:         65 To 74 Years
+             B01001F030:         75 To 84 Years
+             B01001F031:         85 Years And Over
+
+
+      14. Sex By Age (Some Other Race Alone)
+          Universe:  Universe:  People who are Some Other Race alone
+          Name:      B01001F_se
+          Variables:
+             B01001F001s:   Std. Error: Total:
+             B01001F002s:      Std. Error: Male:
+             B01001F003s:         Std. Error: Under 5 Years
+             B01001F004s:         Std. Error: 5 To 9 Years
+             B01001F005s:         Std. Error: 10 To 14 Years
+             B01001F006s:         Std. Error: 15 To 17 Years
+             B01001F007s:         Std. Error: 18 And 19 Years
+             B01001F008s:         Std. Error: 20 To 24 Years
+             B01001F009s:         Std. Error: 25 To 29 Years
+             B01001F010s:         Std. Error: 30 To 34 Years
+             B01001F011s:         Std. Error: 35 To 44 Years
+             B01001F012s:         Std. Error: 45 To 54 Years
+             B01001F013s:         Std. Error: 55 To 64 Years
+             B01001F014s:         Std. Error: 65 To 74 Years
+             B01001F015s:         Std. Error: 75 To 84 Years
+             B01001F016s:         Std. Error: 85 Years And Over
+             B01001F017s:      Std. Error: Female:
+             B01001F018s:         Std. Error: Under 5 Years
+             B01001F019s:         Std. Error: 5 To 9 Years
+             B01001F020s:         Std. Error: 10 To 14 Years
+             B01001F021s:         Std. Error: 15 To 17 Years
+             B01001F022s:         Std. Error: 18 And 19 Years
+             B01001F023s:         Std. Error: 20 To 24 Years
+             B01001F024s:         Std. Error: 25 To 29 Years
+             B01001F025s:         Std. Error: 30 To 34 Years
+             B01001F026s:         Std. Error: 35 To 44 Years
+             B01001F027s:         Std. Error: 45 To 54 Years
+             B01001F028s:         Std. Error: 55 To 64 Years
+             B01001F029s:         Std. Error: 65 To 74 Years
+             B01001F030s:         Std. Error: 75 To 84 Years
+             B01001F031s:         Std. Error: 85 Years And Over
+
+
+      15. Sex By Age (Two Or More Races)
+          Universe:  Universe:  People who are Two or More Races
+          Name:      B01001G
+          Variables:
+             B01001G001:   Total:
+             B01001G002:      Male:
+             B01001G003:         Under 5 Years
+             B01001G004:         5 To 9 Years
+             B01001G005:         10 To 14 Years
+             B01001G006:         15 To 17 Years
+             B01001G007:         18 And 19 Years
+             B01001G008:         20 To 24 Years
+             B01001G009:         25 To 29 Years
+             B01001G010:         30 To 34 Years
+             B01001G011:         35 To 44 Years
+             B01001G012:         45 To 54 Years
+             B01001G013:         55 To 64 Years
+             B01001G014:         65 To 74 Years
+             B01001G015:         75 To 84 Years
+             B01001G016:         85 Years And Over
+             B01001G017:      Female:
+             B01001G018:         Under 5 Years
+             B01001G019:         5 To 9 Years
+             B01001G020:         10 To 14 Years
+             B01001G021:         15 To 17 Years
+             B01001G022:         18 And 19 Years
+             B01001G023:         20 To 24 Years
+             B01001G024:         25 To 29 Years
+             B01001G025:         30 To 34 Years
+             B01001G026:         35 To 44 Years
+             B01001G027:         45 To 54 Years
+             B01001G028:         55 To 64 Years
+             B01001G029:         65 To 74 Years
+             B01001G030:         75 To 84 Years
+             B01001G031:         85 Years And Over
+
+
+      16. Sex By Age (Two Or More Races)
+          Universe:  Universe:  People who are Two or More Races
+          Name:      B01001G_se
+          Variables:
+             B01001G001s:   Std. Error: Total:
+             B01001G002s:      Std. Error: Male:
+             B01001G003s:         Std. Error: Under 5 Years
+             B01001G004s:         Std. Error: 5 To 9 Years
+             B01001G005s:         Std. Error: 10 To 14 Years
+             B01001G006s:         Std. Error: 15 To 17 Years
+             B01001G007s:         Std. Error: 18 And 19 Years
+             B01001G008s:         Std. Error: 20 To 24 Years
+             B01001G009s:         Std. Error: 25 To 29 Years
+             B01001G010s:         Std. Error: 30 To 34 Years
+             B01001G011s:         Std. Error: 35 To 44 Years
+             B01001G012s:         Std. Error: 45 To 54 Years
+             B01001G013s:         Std. Error: 55 To 64 Years
+             B01001G014s:         Std. Error: 65 To 74 Years
+             B01001G015s:         Std. Error: 75 To 84 Years
+             B01001G016s:         Std. Error: 85 Years And Over
+             B01001G017s:      Std. Error: Female:
+             B01001G018s:         Std. Error: Under 5 Years
+             B01001G019s:         Std. Error: 5 To 9 Years
+             B01001G020s:         Std. Error: 10 To 14 Years
+             B01001G021s:         Std. Error: 15 To 17 Years
+             B01001G022s:         Std. Error: 18 And 19 Years
+             B01001G023s:         Std. Error: 20 To 24 Years
+             B01001G024s:         Std. Error: 25 To 29 Years
+             B01001G025s:         Std. Error: 30 To 34 Years
+             B01001G026s:         Std. Error: 35 To 44 Years
+             B01001G027s:         Std. Error: 45 To 54 Years
+             B01001G028s:         Std. Error: 55 To 64 Years
+             B01001G029s:         Std. Error: 65 To 74 Years
+             B01001G030s:         Std. Error: 75 To 84 Years
+             B01001G031s:         Std. Error: 85 Years And Over
+
+
+      17. Sex By Age (White Alone, Not Hispanic Or Latino)
+          Universe:  Universe:  White alone, not Hispanic or Latino population 
+          Name:      B01001H
+          Variables:
+             B01001H001:   Total:
+             B01001H002:      Male:
+             B01001H003:         Under 5 Years
+             B01001H004:         5 To 9 Years
+             B01001H005:         10 To 14 Years
+             B01001H006:         15 To 17 Years
+             B01001H007:         18 And 19 Years
+             B01001H008:         20 To 24 Years
+             B01001H009:         25 To 29 Years
+             B01001H010:         30 To 34 Years
+             B01001H011:         35 To 44 Years
+             B01001H012:         45 To 54 Years
+             B01001H013:         55 To 64 Years
+             B01001H014:         65 To 74 Years
+             B01001H015:         75 To 84 Years
+             B01001H016:         85 Years And Over
+             B01001H017:      Female:
+             B01001H018:         Under 5 Years
+             B01001H019:         5 To 9 Years
+             B01001H020:         10 To 14 Years
+             B01001H021:         15 To 17 Years
+             B01001H022:         18 And 19 Years
+             B01001H023:         20 To 24 Years
+             B01001H024:         25 To 29 Years
+             B01001H025:         30 To 34 Years
+             B01001H026:         35 To 44 Years
+             B01001H027:         45 To 54 Years
+             B01001H028:         55 To 64 Years
+             B01001H029:         65 To 74 Years
+             B01001H030:         75 To 84 Years
+             B01001H031:         85 Years And Over
+
+
+      18. Sex By Age (White Alone, Not Hispanic Or Latino)
+          Universe:  Universe:  White alone, not Hispanic or Latino population 
+          Name:      B01001H_se
+          Variables:
+             B01001H001s:   Std. Error: Total:
+             B01001H002s:      Std. Error: Male:
+             B01001H003s:         Std. Error: Under 5 Years
+             B01001H004s:         Std. Error: 5 To 9 Years
+             B01001H005s:         Std. Error: 10 To 14 Years
+             B01001H006s:         Std. Error: 15 To 17 Years
+             B01001H007s:         Std. Error: 18 And 19 Years
+             B01001H008s:         Std. Error: 20 To 24 Years
+             B01001H009s:         Std. Error: 25 To 29 Years
+             B01001H010s:         Std. Error: 30 To 34 Years
+             B01001H011s:         Std. Error: 35 To 44 Years
+             B01001H012s:         Std. Error: 45 To 54 Years
+             B01001H013s:         Std. Error: 55 To 64 Years
+             B01001H014s:         Std. Error: 65 To 74 Years
+             B01001H015s:         Std. Error: 75 To 84 Years
+             B01001H016s:         Std. Error: 85 Years And Over
+             B01001H017s:      Std. Error: Female:
+             B01001H018s:         Std. Error: Under 5 Years
+             B01001H019s:         Std. Error: 5 To 9 Years
+             B01001H020s:         Std. Error: 10 To 14 Years
+             B01001H021s:         Std. Error: 15 To 17 Years
+             B01001H022s:         Std. Error: 18 And 19 Years
+             B01001H023s:         Std. Error: 20 To 24 Years
+             B01001H024s:         Std. Error: 25 To 29 Years
+             B01001H025s:         Std. Error: 30 To 34 Years
+             B01001H026s:         Std. Error: 35 To 44 Years
+             B01001H027s:         Std. Error: 45 To 54 Years
+             B01001H028s:         Std. Error: 55 To 64 Years
+             B01001H029s:         Std. Error: 65 To 74 Years
+             B01001H030s:         Std. Error: 75 To 84 Years
+             B01001H031s:         Std. Error: 85 Years And Over
+
+
+      19. Sex By Age (Hispanic Or Latino)
+          Universe:  Universe:  Hispanic or Latino population 
+          Name:      B01001I
+          Variables:
+             B01001I001:   Total:
+             B01001I002:      Male:
+             B01001I003:         Under 5 Years
+             B01001I004:         5 To 9 Years
+             B01001I005:         10 To 14 Years
+             B01001I006:         15 To 17 Years
+             B01001I007:         18 And 19 Years
+             B01001I008:         20 To 24 Years
+             B01001I009:         25 To 29 Years
+             B01001I010:         30 To 34 Years
+             B01001I011:         35 To 44 Years
+             B01001I012:         45 To 54 Years
+             B01001I013:         55 To 64 Years
+             B01001I014:         65 To 74 Years
+             B01001I015:         75 To 84 Years
+             B01001I016:         85 Years And Over
+             B01001I017:      Female:
+             B01001I018:         Under 5 Years
+             B01001I019:         5 To 9 Years
+             B01001I020:         10 To 14 Years
+             B01001I021:         15 To 17 Years
+             B01001I022:         18 And 19 Years
+             B01001I023:         20 To 24 Years
+             B01001I024:         25 To 29 Years
+             B01001I025:         30 To 34 Years
+             B01001I026:         35 To 44 Years
+             B01001I027:         45 To 54 Years
+             B01001I028:         55 To 64 Years
+             B01001I029:         65 To 74 Years
+             B01001I030:         75 To 84 Years
+             B01001I031:         85 Years And Over
+
+
+      20. Sex By Age (Hispanic Or Latino)
+          Universe:  Universe:  Hispanic or Latino population 
+          Name:      B01001I_se
+          Variables:
+             B01001I001s:   Std. Error: Total:
+             B01001I002s:      Std. Error: Male:
+             B01001I003s:         Std. Error: Under 5 Years
+             B01001I004s:         Std. Error: 5 To 9 Years
+             B01001I005s:         Std. Error: 10 To 14 Years
+             B01001I006s:         Std. Error: 15 To 17 Years
+             B01001I007s:         Std. Error: 18 And 19 Years
+             B01001I008s:         Std. Error: 20 To 24 Years
+             B01001I009s:         Std. Error: 25 To 29 Years
+             B01001I010s:         Std. Error: 30 To 34 Years
+             B01001I011s:         Std. Error: 35 To 44 Years
+             B01001I012s:         Std. Error: 45 To 54 Years
+             B01001I013s:         Std. Error: 55 To 64 Years
+             B01001I014s:         Std. Error: 65 To 74 Years
+             B01001I015s:         Std. Error: 75 To 84 Years
+             B01001I016s:         Std. Error: 85 Years And Over
+             B01001I017s:      Std. Error: Female:
+             B01001I018s:         Std. Error: Under 5 Years
+             B01001I019s:         Std. Error: 5 To 9 Years
+             B01001I020s:         Std. Error: 10 To 14 Years
+             B01001I021s:         Std. Error: 15 To 17 Years
+             B01001I022s:         Std. Error: 18 And 19 Years
+             B01001I023s:         Std. Error: 20 To 24 Years
+             B01001I024s:         Std. Error: 25 To 29 Years
+             B01001I025s:         Std. Error: 30 To 34 Years
+             B01001I026s:         Std. Error: 35 To 44 Years
+             B01001I027s:         Std. Error: 45 To 54 Years
+             B01001I028s:         Std. Error: 55 To 64 Years
+             B01001I029s:         Std. Error: 65 To 74 Years
+             B01001I030s:         Std. Error: 75 To 84 Years
+             B01001I031s:         Std. Error: 85 Years And Over
+
+
+      21. Total Population
+          Universe:  Universe:  Total population
+          Name:      B01003
+          Variables:
+             B01003001:   Total
+
+
+      22. Total Population
+          Universe:  Universe:  Total population
+          Name:      B01003_se
+          Variables:
+             B01003001s:   Std. Error: Total
+
+
+      23. Race
+          Universe:  Universe:  Total population
+          Name:      B02001
+          Variables:
+             B02001001:   Total:
+             B02001002:      White Alone
+             B02001003:      Black Or African American Alone
+             B02001004:      American Indian And Alaska Native Alone
+             B02001005:      Asian Alone
+             B02001006:      Native Hawaiian And Other Pacific Islander Alone
+             B02001007:      Some Other Race Alone
+             B02001008:      Two Or More Races:
+             B02001009:         Two Races Including Some Other Race
+             B02001010:         Two Races Excluding Some Other Race, And Three Or More Races
+
+
+      24. Race
+          Universe:  Universe:  Total population
+          Name:      B02001_se
+          Variables:
+             B02001001s:   Std. Error: Total:
+             B02001002s:      Std. Error: White Alone
+             B02001003s:      Std. Error: Black Or African American Alone
+             B02001004s:      Std. Error: American Indian And Alaska Native Alone
+             B02001005s:      Std. Error: Asian Alone
+             B02001006s:      Std. Error: Native Hawaiian And Other Pacific Islander Alone
+             B02001007s:      Std. Error: Some Other Race Alone
+             B02001008s:      Std. Error: Two Or More Races:
+             B02001009s:         Std. Error: Two Races Including Some Other Race
+             B02001010s:         Std. Error: Two Races Excluding Some Other Race, And Three Or More Races
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      QName:          Qualifying Name
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      B01001001:      Total
+      B01001002:      Total: Male
+      B01001003:      Total: Male: Under 5 Years
+      B01001004:      Total: Male: 5 To 9 Years
+      B01001005:      Total: Male: 10 To 14 Years
+      B01001006:      Total: Male: 15 To 17 Years
+      B01001007:      Total: Male: 18 And 19 Years
+      B01001008:      Total: Male: 20 Years
+      B01001009:      Total: Male: 21 Years
+      B01001010:      Total: Male: 22 To 24 Years
+      B01001011:      Total: Male: 25 To 29 Years
+      B01001012:      Total: Male: 30 To 34 Years
+      B01001013:      Total: Male: 35 To 39 Years
+      B01001014:      Total: Male: 40 To 44 Years
+      B01001015:      Total: Male: 45 To 49 Years
+      B01001016:      Total: Male: 50 To 54 Years
+      B01001017:      Total: Male: 55 To 59 Years
+      B01001018:      Total: Male: 60 And 61 Years
+      B01001019:      Total: Male: 62 To 64 Years
+      B01001020:      Total: Male: 65 And 66 Years
+      B01001021:      Total: Male: 67 To 69 Years
+      B01001022:      Total: Male: 70 To 74 Years
+      B01001023:      Total: Male: 75 To 79 Years
+      B01001024:      Total: Male: 80 To 84 Years
+      B01001025:      Total: Male: 85 Years And Over
+      B01001026:      Total: Female
+      B01001027:      Total: Female: Under 5 Years
+      B01001028:      Total: Female: 5 To 9 Years
+      B01001029:      Total: Female: 10 To 14 Years
+      B01001030:      Total: Female: 15 To 17 Years
+      B01001031:      Total: Female: 18 And 19 Years
+      B01001032:      Total: Female: 20 Years
+      B01001033:      Total: Female: 21 Years
+      B01001034:      Total: Female: 22 To 24 Years
+      B01001035:      Total: Female: 25 To 29 Years
+      B01001036:      Total: Female: 30 To 34 Years
+      B01001037:      Total: Female: 35 To 39 Years
+      B01001038:      Total: Female: 40 To 44 Years
+      B01001039:      Total: Female: 45 To 49 Years
+      B01001040:      Total: Female: 50 To 54 Years
+      B01001041:      Total: Female: 55 To 59 Years
+      B01001042:      Total: Female: 60 And 61 Years
+      B01001043:      Total: Female: 62 To 64 Years
+      B01001044:      Total: Female: 65 And 66 Years
+      B01001045:      Total: Female: 67 To 69 Years
+      B01001046:      Total: Female: 70 To 74 Years
+      B01001047:      Total: Female: 75 To 79 Years
+      B01001048:      Total: Female: 80 To 84 Years
+      B01001049:      Total: Female: 85 Years And Over
+      B01001001s:     Std. Error: Not Allocated
+      B01001002s:     Std. Error: Not Allocated
+      B01001003s:     Std. Error: Not Allocated
+      B01001004s:     Std. Error: Not Allocated
+      B01001005s:     Std. Error: Not Allocated
+      B01001006s:     Std. Error: Not Allocated
+      B01001007s:     Std. Error: Not Allocated
+      B01001008s:     Std. Error: Not Allocated
+      B01001009s:     Std. Error: Not Allocated
+      B01001010s:     Std. Error: Not Allocated
+      B01001011s:     Std. Error: Not Allocated
+      B01001012s:     Std. Error: Not Allocated
+      B01001013s:     Std. Error: Not Allocated
+      B01001014s:     Std. Error: Not Allocated
+      B01001015s:     Std. Error: Not Allocated
+      B01001016s:     Std. Error: Not Allocated
+      B01001017s:     Std. Error: Not Allocated
+      B01001018s:     Std. Error: Not Allocated
+      B01001019s:     Std. Error: Not Allocated
+      B01001020s:     Std. Error: Not Allocated
+      B01001021s:     Std. Error: Not Allocated
+      B01001022s:     Std. Error: Not Allocated
+      B01001023s:     Std. Error: Not Allocated
+      B01001024s:     Std. Error: Not Allocated
+      B01001025s:     Std. Error: Not Allocated
+      B01001026s:     Std. Error: Not Allocated
+      B01001027s:     Std. Error: Not Allocated
+      B01001028s:     Std. Error: Not Allocated
+      B01001029s:     Std. Error: Not Allocated
+      B01001030s:     Std. Error: Not Allocated
+      B01001031s:     Std. Error: Not Allocated
+      B01001032s:     Std. Error: Not Allocated
+      B01001033s:     Std. Error: Not Allocated
+      B01001034s:     Std. Error: Not Allocated
+      B01001035s:     Std. Error: Not Allocated
+      B01001036s:     Std. Error: Not Allocated
+      B01001037s:     Std. Error: Not Allocated
+      B01001038s:     Std. Error: Not Allocated
+      B01001039s:     Std. Error: Not Allocated
+      B01001040s:     Std. Error: Not Allocated
+      B01001041s:     Std. Error: Not Allocated
+      B01001042s:     Std. Error: Not Allocated
+      B01001043s:     Std. Error: Not Allocated
+      B01001044s:     Std. Error: Not Allocated
+      B01001045s:     Std. Error: Not Allocated
+      B01001046s:     Std. Error: Not Allocated
+      B01001047s:     Std. Error: Not Allocated
+      B01001048s:     Std. Error: Not Allocated
+      B01001049s:     Std. Error: Not Allocated
+      B01001A001:     Total
+      B01001A002:     Total: Male
+      B01001A003:     Total: Male: Under 5 Years
+      B01001A004:     Total: Male: 5 To 9 Years
+      B01001A005:     Total: Male: 10 To 14 Years
+      B01001A006:     Total: Male: 15 To 17 Years
+      B01001A007:     Total: Male: 18 And 19 Years
+      B01001A008:     Total: Male: 20 To 24 Years
+      B01001A009:     Total: Male: 25 To 29 Years
+      B01001A010:     Total: Male: 30 To 34 Years
+      B01001A011:     Total: Male: 35 To 44 Years
+      B01001A012:     Total: Male: 45 To 54 Years
+      B01001A013:     Total: Male: 55 To 64 Years
+      B01001A014:     Total: Male: 65 To 74 Years
+      B01001A015:     Total: Male: 75 To 84 Years
+      B01001A016:     Total: Male: 85 Years And Over
+      B01001A017:     Total: Female
+      B01001A018:     Total: Female: Under 5 Years
+      B01001A019:     Total: Female: 5 To 9 Years
+      B01001A020:     Total: Female: 10 To 14 Years
+      B01001A021:     Total: Female: 15 To 17 Years
+      B01001A022:     Total: Female: 18 And 19 Years
+      B01001A023:     Total: Female: 20 To 24 Years
+      B01001A024:     Total: Female: 25 To 29 Years
+      B01001A025:     Total: Female: 30 To 34 Years
+      B01001A026:     Total: Female: 35 To 44 Years
+      B01001A027:     Total: Female: 45 To 54 Years
+      B01001A028:     Total: Female: 55 To 64 Years
+      B01001A029:     Total: Female: 65 To 74 Years
+      B01001A030:     Total: Female: 75 To 84 Years
+      B01001A031:     Total: Female: 85 Years And Over
+      B01001A001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001A031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B001:     Total
+      B01001B002:     Total: Male
+      B01001B003:     Total: Male: Under 5 Years
+      B01001B004:     Total: Male: 5 To 9 Years
+      B01001B005:     Total: Male: 10 To 14 Years
+      B01001B006:     Total: Male: 15 To 17 Years
+      B01001B007:     Total: Male: 18 And 19 Years
+      B01001B008:     Total: Male: 20 To 24 Years
+      B01001B009:     Total: Male: 25 To 29 Years
+      B01001B010:     Total: Male: 30 To 34 Years
+      B01001B011:     Total: Male: 35 To 44 Years
+      B01001B012:     Total: Male: 45 To 54 Years
+      B01001B013:     Total: Male: 55 To 64 Years
+      B01001B014:     Total: Male: 65 To 74 Years
+      B01001B015:     Total: Male: 75 To 84 Years
+      B01001B016:     Total: Male: 85 Years And Over
+      B01001B017:     Total: Female
+      B01001B018:     Total: Female: Under 5 Years
+      B01001B019:     Total: Female: 5 To 9 Years
+      B01001B020:     Total: Female: 10 To 14 Years
+      B01001B021:     Total: Female: 15 To 17 Years
+      B01001B022:     Total: Female: 18 And 19 Years
+      B01001B023:     Total: Female: 20 To 24 Years
+      B01001B024:     Total: Female: 25 To 29 Years
+      B01001B025:     Total: Female: 30 To 34 Years
+      B01001B026:     Total: Female: 35 To 44 Years
+      B01001B027:     Total: Female: 45 To 54 Years
+      B01001B028:     Total: Female: 55 To 64 Years
+      B01001B029:     Total: Female: 65 To 74 Years
+      B01001B030:     Total: Female: 75 To 84 Years
+      B01001B031:     Total: Female: 85 Years And Over
+      B01001B001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001B031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C001:     Total
+      B01001C002:     Total: Male
+      B01001C003:     Total: Male: Under 5 Years
+      B01001C004:     Total: Male: 5 To 9 Years
+      B01001C005:     Total: Male: 10 To 14 Years
+      B01001C006:     Total: Male: 15 To 17 Years
+      B01001C007:     Total: Male: 18 And 19 Years
+      B01001C008:     Total: Male: 20 To 24 Years
+      B01001C009:     Total: Male: 25 To 29 Years
+      B01001C010:     Total: Male: 30 To 34 Years
+      B01001C011:     Total: Male: 35 To 44 Years
+      B01001C012:     Total: Male: 45 To 54 Years
+      B01001C013:     Total: Male: 55 To 64 Years
+      B01001C014:     Total: Male: 65 To 74 Years
+      B01001C015:     Total: Male: 75 To 84 Years
+      B01001C016:     Total: Male: 85 Years And Over
+      B01001C017:     Total: Female
+      B01001C018:     Total: Female: Under 5 Years
+      B01001C019:     Total: Female: 5 To 9 Years
+      B01001C020:     Total: Female: 10 To 14 Years
+      B01001C021:     Total: Female: 15 To 17 Years
+      B01001C022:     Total: Female: 18 And 19 Years
+      B01001C023:     Total: Female: 20 To 24 Years
+      B01001C024:     Total: Female: 25 To 29 Years
+      B01001C025:     Total: Female: 30 To 34 Years
+      B01001C026:     Total: Female: 35 To 44 Years
+      B01001C027:     Total: Female: 45 To 54 Years
+      B01001C028:     Total: Female: 55 To 64 Years
+      B01001C029:     Total: Female: 65 To 74 Years
+      B01001C030:     Total: Female: 75 To 84 Years
+      B01001C031:     Total: Female: 85 Years And Over
+      B01001C001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001C031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D001:     Total
+      B01001D002:     Total: Male
+      B01001D003:     Total: Male: Under 5 Years
+      B01001D004:     Total: Male: 5 To 9 Years
+      B01001D005:     Total: Male: 10 To 14 Years
+      B01001D006:     Total: Male: 15 To 17 Years
+      B01001D007:     Total: Male: 18 And 19 Years
+      B01001D008:     Total: Male: 20 To 24 Years
+      B01001D009:     Total: Male: 25 To 29 Years
+      B01001D010:     Total: Male: 30 To 34 Years
+      B01001D011:     Total: Male: 35 To 44 Years
+      B01001D012:     Total: Male: 45 To 54 Years
+      B01001D013:     Total: Male: 55 To 64 Years
+      B01001D014:     Total: Male: 65 To 74 Years
+      B01001D015:     Total: Male: 75 To 84 Years
+      B01001D016:     Total: Male: 85 Years And Over
+      B01001D017:     Total: Female
+      B01001D018:     Total: Female: Under 5 Years
+      B01001D019:     Total: Female: 5 To 9 Years
+      B01001D020:     Total: Female: 10 To 14 Years
+      B01001D021:     Total: Female: 15 To 17 Years
+      B01001D022:     Total: Female: 18 And 19 Years
+      B01001D023:     Total: Female: 20 To 24 Years
+      B01001D024:     Total: Female: 25 To 29 Years
+      B01001D025:     Total: Female: 30 To 34 Years
+      B01001D026:     Total: Female: 35 To 44 Years
+      B01001D027:     Total: Female: 45 To 54 Years
+      B01001D028:     Total: Female: 55 To 64 Years
+      B01001D029:     Total: Female: 65 To 74 Years
+      B01001D030:     Total: Female: 75 To 84 Years
+      B01001D031:     Total: Female: 85 Years And Over
+      B01001D001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001D031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E001:     Total
+      B01001E002:     Total: Male
+      B01001E003:     Total: Male: Under 5 Years
+      B01001E004:     Total: Male: 5 To 9 Years
+      B01001E005:     Total: Male: 10 To 14 Years
+      B01001E006:     Total: Male: 15 To 17 Years
+      B01001E007:     Total: Male: 18 And 19 Years
+      B01001E008:     Total: Male: 20 To 24 Years
+      B01001E009:     Total: Male: 25 To 29 Years
+      B01001E010:     Total: Male: 30 To 34 Years
+      B01001E011:     Total: Male: 35 To 44 Years
+      B01001E012:     Total: Male: 45 To 54 Years
+      B01001E013:     Total: Male: 55 To 64 Years
+      B01001E014:     Total: Male: 65 To 74 Years
+      B01001E015:     Total: Male: 75 To 84 Years
+      B01001E016:     Total: Male: 85 Years And Over
+      B01001E017:     Total: Female
+      B01001E018:     Total: Female: Under 5 Years
+      B01001E019:     Total: Female: 5 To 9 Years
+      B01001E020:     Total: Female: 10 To 14 Years
+      B01001E021:     Total: Female: 15 To 17 Years
+      B01001E022:     Total: Female: 18 And 19 Years
+      B01001E023:     Total: Female: 20 To 24 Years
+      B01001E024:     Total: Female: 25 To 29 Years
+      B01001E025:     Total: Female: 30 To 34 Years
+      B01001E026:     Total: Female: 35 To 44 Years
+      B01001E027:     Total: Female: 45 To 54 Years
+      B01001E028:     Total: Female: 55 To 64 Years
+      B01001E029:     Total: Female: 65 To 74 Years
+      B01001E030:     Total: Female: 75 To 84 Years
+      B01001E031:     Total: Female: 85 Years And Over
+      B01001E001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001E031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F001:     Total
+      B01001F002:     Total: Male
+      B01001F003:     Total: Male: Under 5 Years
+      B01001F004:     Total: Male: 5 To 9 Years
+      B01001F005:     Total: Male: 10 To 14 Years
+      B01001F006:     Total: Male: 15 To 17 Years
+      B01001F007:     Total: Male: 18 And 19 Years
+      B01001F008:     Total: Male: 20 To 24 Years
+      B01001F009:     Total: Male: 25 To 29 Years
+      B01001F010:     Total: Male: 30 To 34 Years
+      B01001F011:     Total: Male: 35 To 44 Years
+      B01001F012:     Total: Male: 45 To 54 Years
+      B01001F013:     Total: Male: 55 To 64 Years
+      B01001F014:     Total: Male: 65 To 74 Years
+      B01001F015:     Total: Male: 75 To 84 Years
+      B01001F016:     Total: Male: 85 Years And Over
+      B01001F017:     Total: Female
+      B01001F018:     Total: Female: Under 5 Years
+      B01001F019:     Total: Female: 5 To 9 Years
+      B01001F020:     Total: Female: 10 To 14 Years
+      B01001F021:     Total: Female: 15 To 17 Years
+      B01001F022:     Total: Female: 18 And 19 Years
+      B01001F023:     Total: Female: 20 To 24 Years
+      B01001F024:     Total: Female: 25 To 29 Years
+      B01001F025:     Total: Female: 30 To 34 Years
+      B01001F026:     Total: Female: 35 To 44 Years
+      B01001F027:     Total: Female: 45 To 54 Years
+      B01001F028:     Total: Female: 55 To 64 Years
+      B01001F029:     Total: Female: 65 To 74 Years
+      B01001F030:     Total: Female: 75 To 84 Years
+      B01001F031:     Total: Female: 85 Years And Over
+      B01001F001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001F031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G001:     Total
+      B01001G002:     Total: Male
+      B01001G003:     Total: Male: Under 5 Years
+      B01001G004:     Total: Male: 5 To 9 Years
+      B01001G005:     Total: Male: 10 To 14 Years
+      B01001G006:     Total: Male: 15 To 17 Years
+      B01001G007:     Total: Male: 18 And 19 Years
+      B01001G008:     Total: Male: 20 To 24 Years
+      B01001G009:     Total: Male: 25 To 29 Years
+      B01001G010:     Total: Male: 30 To 34 Years
+      B01001G011:     Total: Male: 35 To 44 Years
+      B01001G012:     Total: Male: 45 To 54 Years
+      B01001G013:     Total: Male: 55 To 64 Years
+      B01001G014:     Total: Male: 65 To 74 Years
+      B01001G015:     Total: Male: 75 To 84 Years
+      B01001G016:     Total: Male: 85 Years And Over
+      B01001G017:     Total: Female
+      B01001G018:     Total: Female: Under 5 Years
+      B01001G019:     Total: Female: 5 To 9 Years
+      B01001G020:     Total: Female: 10 To 14 Years
+      B01001G021:     Total: Female: 15 To 17 Years
+      B01001G022:     Total: Female: 18 And 19 Years
+      B01001G023:     Total: Female: 20 To 24 Years
+      B01001G024:     Total: Female: 25 To 29 Years
+      B01001G025:     Total: Female: 30 To 34 Years
+      B01001G026:     Total: Female: 35 To 44 Years
+      B01001G027:     Total: Female: 45 To 54 Years
+      B01001G028:     Total: Female: 55 To 64 Years
+      B01001G029:     Total: Female: 65 To 74 Years
+      B01001G030:     Total: Female: 75 To 84 Years
+      B01001G031:     Total: Female: 85 Years And Over
+      B01001G001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001G031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H001:     Total
+      B01001H002:     Total: Male
+      B01001H003:     Total: Male: Under 5 Years
+      B01001H004:     Total: Male: 5 To 9 Years
+      B01001H005:     Total: Male: 10 To 14 Years
+      B01001H006:     Total: Male: 15 To 17 Years
+      B01001H007:     Total: Male: 18 And 19 Years
+      B01001H008:     Total: Male: 20 To 24 Years
+      B01001H009:     Total: Male: 25 To 29 Years
+      B01001H010:     Total: Male: 30 To 34 Years
+      B01001H011:     Total: Male: 35 To 44 Years
+      B01001H012:     Total: Male: 45 To 54 Years
+      B01001H013:     Total: Male: 55 To 64 Years
+      B01001H014:     Total: Male: 65 To 74 Years
+      B01001H015:     Total: Male: 75 To 84 Years
+      B01001H016:     Total: Male: 85 Years And Over
+      B01001H017:     Total: Female
+      B01001H018:     Total: Female: Under 5 Years
+      B01001H019:     Total: Female: 5 To 9 Years
+      B01001H020:     Total: Female: 10 To 14 Years
+      B01001H021:     Total: Female: 15 To 17 Years
+      B01001H022:     Total: Female: 18 And 19 Years
+      B01001H023:     Total: Female: 20 To 24 Years
+      B01001H024:     Total: Female: 25 To 29 Years
+      B01001H025:     Total: Female: 30 To 34 Years
+      B01001H026:     Total: Female: 35 To 44 Years
+      B01001H027:     Total: Female: 45 To 54 Years
+      B01001H028:     Total: Female: 55 To 64 Years
+      B01001H029:     Total: Female: 65 To 74 Years
+      B01001H030:     Total: Female: 75 To 84 Years
+      B01001H031:     Total: Female: 85 Years And Over
+      B01001H001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001H031s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I001:     Total
+      B01001I002:     Total: Male
+      B01001I003:     Total: Male: Under 5 Years
+      B01001I004:     Total: Male: 5 To 9 Years
+      B01001I005:     Total: Male: 10 To 14 Years
+      B01001I006:     Total: Male: 15 To 17 Years
+      B01001I007:     Total: Male: 18 And 19 Years
+      B01001I008:     Total: Male: 20 To 24 Years
+      B01001I009:     Total: Male: 25 To 29 Years
+      B01001I010:     Total: Male: 30 To 34 Years
+      B01001I011:     Total: Male: 35 To 44 Years
+      B01001I012:     Total: Male: 45 To 54 Years
+      B01001I013:     Total: Male: 55 To 64 Years
+      B01001I014:     Total: Male: 65 To 74 Years
+      B01001I015:     Total: Male: 75 To 84 Years
+      B01001I016:     Total: Male: 85 Years And Over
+      B01001I017:     Total: Female
+      B01001I018:     Total: Female: Under 5 Years
+      B01001I019:     Total: Female: 5 To 9 Years
+      B01001I020:     Total: Female: 10 To 14 Years
+      B01001I021:     Total: Female: 15 To 17 Years
+      B01001I022:     Total: Female: 18 And 19 Years
+      B01001I023:     Total: Female: 20 To 24 Years
+      B01001I024:     Total: Female: 25 To 29 Years
+      B01001I025:     Total: Female: 30 To 34 Years
+      B01001I026:     Total: Female: 35 To 44 Years
+      B01001I027:     Total: Female: 45 To 54 Years
+      B01001I028:     Total: Female: 55 To 64 Years
+      B01001I029:     Total: Female: 65 To 74 Years
+      B01001I030:     Total: Female: 75 To 84 Years
+      B01001I031:     Total: Female: 85 Years And Over
+      B01001I001s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I002s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I003s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I004s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I005s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I006s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I007s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I008s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I009s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I010s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I011s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I012s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I013s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I014s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I015s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I016s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I017s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I018s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I019s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I020s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I021s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I022s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I023s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I024s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I025s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I026s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I027s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I028s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I029s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I030s:    Std. Error: Total: Female: 85 Years And Over
+      B01001I031s:    Std. Error: Total: Female: 85 Years And Over
+      B01003001:      Total
+      B01003001s:     Std. Error: Total: Female
+      B02001001:      Total
+      B02001002:      Total: White Alone
+      B02001003:      Total: Black Or African American Alone
+      B02001004:      Total: American Indian And Alaska Native Alone
+      B02001005:      Total: Asian Alone
+      B02001006:      Total: Native Hawaiian And Other Pacific Islander Alone
+      B02001007:      Total: Some Other Race Alone
+      B02001008:      Total: Two Or More Races
+      B02001009:      Total: Two Or More Races: Two Races Including Some Other Race
+      B02001010:      Total: Two Or More Races: Two Races Excluding Some Other Race And Three Or More Races
+      B02001001s:     Std. Error: Total
+      B02001002s:     Std. Error: Total
+      B02001003s:     Std. Error: Total
+      B02001004s:     Std. Error: Total
+      B02001005s:     Std. Error: Total
+      B02001006s:     Std. Error: Total
+      B02001007s:     Std. Error: Total
+      B02001008s:     Std. Error: Total
+      B02001009s:     Std. Error: Total
+      B02001010s:     Std. Error: Total
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12789222
+
+If you have any questions contact info@socialexplorer.com
